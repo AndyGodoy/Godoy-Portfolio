@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#root, html{
+  background-color: #e9eef1;
+}
+
+.header-background{
+  background-color: #9ebbb6;
+}
+
+.main-background{
+  background-color: #e9eef1;
+}
+
+.project-container{
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  flex-wrap: wrap;
+}
+
+.project{
+  transition: all;
+  transition-duration: 0.5s;
+  border: solid 5px #9ebbb6;
+  border-radius: 2%;
+}
+
+.project:hover{
+  opacity: 50%;
+}
+
+.project-title{
+  padding: 1%;
+  color: #3D405B;
+  font-size: 30px;
+  background-color: #f0e3f97c;
+}
+
+.custom-link{
+  color: #fbf9ea !important;
+}
+
+.custom-link:hover,
+.custom-link-footer:hover{
+  color: #fe7e7e !important;
+}
+
+.custom-link-footer{
+  color: #3D405B !important;
+}
+
+.resume{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-link-portfolio{
+  color: #515471
+}
+
+.custom-link-portfolio:hover{
+  color: azure;
+}
