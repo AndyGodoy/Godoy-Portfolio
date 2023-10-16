@@ -11,7 +11,7 @@ export default function Portfolio(){
     }
     
     const projects = [
-        new Project('DTC SOLUTIONS', '../Public/engineLight.jpg', 'https://github.com/jacob-kachmarek/dtc-solutions', 'https://jacob-kachmarek.github.io/dtc-solutions/'),
+        new Project('DTC SOLUTIONS', '/engineLight.jpg', 'https://github.com/jacob-kachmarek/dtc-solutions', 'https://jacob-kachmarek.github.io/dtc-solutions/'),
         new Project("SillyCode Valley!", '/improv.jpg', 'https://github.com/Chapjae/sillyCode_valley', 'https://intense-sands-40473-ea199ebca0d8.herokuapp.com/'),
         new Project("Weather App", "/weatherIos.webp", "https://github.com/AndyGodoy/WeatherApp_Project-", "https://andygodoy.github.io/WeatherApp_Project-/"),
         new Project("ReadMe Generator", "/readMe.jpg", "https://github.com/AndyGodoy/ReadMe-Generator", "https://github.com/AndyGodoy/ReadMe-Generator/blob/main/README.md"),
