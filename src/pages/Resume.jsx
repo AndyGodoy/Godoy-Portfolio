@@ -3,7 +3,7 @@ export default function Resume(){
       <div className='m-3 resume'>
           <h2>My Resume</h2>
           <br></br>
-          <a className="btn btn-primary" href="Public/Andys_resume2023.pdf" download={"Public/Andys_resume2023.pdf"}>
+          <a className="btn btn-primary" href="Public/AndyResume2023.pdf" download={"Public/AndyResume2023.pdf"}>
               Download My Resume
           </a>
           <br></br>
@@ -26,8 +26,7 @@ export default function Resume(){
               <li><h4>Mysql</h4></li>
               <li><h4>Sequelize</h4></li>
               <li><h4>MongoDB</h4></li>
-              <li><h4>mongoose</h4></li>
-          </ul>
+              <li><h4>mongoose</h4></li> </ul>
       </div>
   )
 }
